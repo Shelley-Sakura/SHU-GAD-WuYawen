@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{86CB6C86-5B1F-4530-A61E-B1B5A9EB3280}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Reverb" ID="{86CB6C86-5B1F-4530-A61E-B1B5A9EB3280}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

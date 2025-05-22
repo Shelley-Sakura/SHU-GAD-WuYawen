@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{586197A5-AC23-4946-8C72-9EF1D31757A5}" SchemaVersion="123">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{586197A5-AC23-4946-8C72-9EF1D31757A5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{586197A5-AC23-4946-8C72-9EF1D31757A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Char_Cloth" ID="{D679357E-D41D-4FD7-BAEE-77EEF5C3EF38}"/>
+				<SwitchGroup Name="Char_Shoes" ID="{90D3C52D-CC5D-491B-B788-904E3A71B5B3}"/>
+				<SwitchGroup Name="Material" ID="{1A14D4EF-143B-4BD0-98E3-E20EA7A52824}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

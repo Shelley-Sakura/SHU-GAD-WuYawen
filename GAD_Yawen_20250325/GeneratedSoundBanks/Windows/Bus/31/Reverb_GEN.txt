@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3119399198	Reverb_GEN			\Default Work Unit\Master Audio Bus\Reverb_GEN	
+
