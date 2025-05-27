@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2859806921	Play_FemaleVoice_02			\Default Work Unit\Play_FemaleVoice_02	
+

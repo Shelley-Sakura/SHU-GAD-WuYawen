@@ -1,0 +1,30 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "865888484",
+    "Type": "Event",
+    "GUID": "{9F078D9C-79C7-4CCF-B5D1-CCA4D326F775}",
+    "Language": "SFX",
+    "Hash": "{7A03C1B5-E310-61D6-ED9F-0DE8FE5E2924}",
+    "ObjectPath": "Play_FemaleVoice",
+    "ShortName": "Play_FemaleVoice",
+    "Path": "Event/86/Play_FemaleVoice.bnk",
+    "Events": [
+     {
+      "Id": "865888484",
+      "Name": "Play_FemaleVoice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FemaleVoice",
+      "GUID": "{9F078D9C-79C7-4CCF-B5D1-CCA4D326F775}",
+      "DurationType": "Infinite"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E49439E3-F580-00CB-BFD5-7B16B61FF535}"
+ }
+}

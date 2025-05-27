@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2D98E185-5779-41DD-BEE9-E5B2299524CD}",
     "Language": "SFX",
-    "Hash": "{9A94E8F0-FF4F-89CA-FE6C-6DDA12F61FF7}",
+    "Hash": "{60CA614E-0792-575B-9A7F-713842BAE561}",
     "ObjectPath": "Play_OBJ_Campfire",
     "ShortName": "Play_OBJ_Campfire",
     "Path": "Event/39/Play_OBJ_Campfire.bnk",
@@ -130,7 +130,7 @@
       "Location": "Loose",
       "ShortName": "OBJ_Campfire_Burn_Loop.wav",
       "Path": "Media/73/732951275.wem",
-      "CachePath": "AB/{AB42B63C-3B9C-A309-4844-6175C2AD5EB0}.wem"
+      "CachePath": "4B/{4B0CB4F8-49FD-3E05-A918-0E36BBE15399}.wem"
      },
      {
       "Id": "885270020",
@@ -157,6 +157,7 @@
       "Name": "Play_OBJ_Campfire",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_OBJ_Campfire",
       "GUID": "{2D98E185-5779-41DD-BEE9-E5B2299524CD}",
+      "MaxAttenuation": "1000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -209,6 +210,6 @@
     ]
    }
   ],
-  "FileHash": "{82795E12-504A-5062-9A5B-91297468F134}"
+  "FileHash": "{BD42F60D-AB22-0956-9245-872CC20F7842}"
  }
 }

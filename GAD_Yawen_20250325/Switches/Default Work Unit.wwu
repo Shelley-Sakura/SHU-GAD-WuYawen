@@ -3,9 +3,20 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{586197A5-AC23-4946-8C72-9EF1D31757A5}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Char_Cloth" ID="{D679357E-D41D-4FD7-BAEE-77EEF5C3EF38}"/>
-				<SwitchGroup Name="Char_Shoes" ID="{90D3C52D-CC5D-491B-B788-904E3A71B5B3}"/>
-				<SwitchGroup Name="Material" ID="{1A14D4EF-143B-4BD0-98E3-E20EA7A52824}"/>
+				<SwitchGroup Name="Material" ID="{1A14D4EF-143B-4BD0-98E3-E20EA7A52824}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{76EE771E-3BA6-4CC8-B707-0041A9F9965C}"/>
+						<Switch Name="Grass" ID="{A4F542B6-A677-487C-8964-0F69F59DC5E5}"/>
+						<Switch Name="Wood" ID="{C4E80511-71FD-45CB-901A-B985C07F4B23}"/>
+						<Switch Name="Rock" ID="{F99C8C60-CAA7-4EAC-9E8B-395C9F654BA6}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="ShoeType" ID="{ADA4C253-7836-4FAE-8100-BBB490CA911E}">
+					<ChildrenList>
+						<Switch Name="Highheel" ID="{EA53AC17-92AE-4836-99F2-6D3ECC9AF421}"/>
+						<Switch Name="Sneaker" ID="{9B0D8EB0-D0A0-4BF9-8039-D868A5EABC12}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -8,7 +8,51 @@
 						<Action Name="" ID="{0C6F1EC3-5A7C-4882-9D7B-8C0575F3250E}" ShortID="782017619">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="OBJ_Campfire" ID="{5848AE79-4C67-42C8-8864-17863C2A9261}" WorkUnitID="{47CCC4BD-431D-410D-A867-1A337B7E55EA}"/>
+									<ObjectRef Name="OBJ_Campfire" ID="{5848AE79-4C67-42C8-8864-17863C2A9261}" WorkUnitID="{2DA36FBE-77D8-4A59-85D0-D2C438264D37}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Forest" ID="{92402E7B-9F9B-4275-9578-F1E5B23CFCC1}">
+					<ChildrenList>
+						<Action Name="" ID="{AB8B1921-4C94-48EA-9B0F-75E98745F1A4}" ShortID="679071871">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest" ID="{247EB707-F256-4808-A287-4513CE7E3D2E}" WorkUnitID="{85090F63-DE3B-4424-8EC3-320FE40CD088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Foley_FS_Run" ID="{5D10CC14-565E-4C8A-861D-7BFB9C978E81}">
+					<ChildrenList>
+						<Action Name="" ID="{F028864E-E5B4-429D-A174-00DCBE5D8955}" ShortID="942784745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Foley_FS_Run" ID="{9615F6FE-258B-45DF-9722-C36932230227}" WorkUnitID="{7FD2A7D7-2CE1-4004-ADF2-2DD3DAEAE306}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FemaleVoice" ID="{9F078D9C-79C7-4CCF-B5D1-CCA4D326F775}">
+					<ChildrenList>
+						<Action Name="" ID="{952C9E3E-BA7E-4BA0-A658-FEEE68562874}" ShortID="661989592">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FemaleVoice" ID="{67CC5C67-D612-4B0A-813B-CFD4086D6650}" WorkUnitID="{85090F63-DE3B-4424-8EC3-320FE40CD088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FemaleVoice_02" ID="{084FD4F2-9BDB-4995-AB24-5324C6A423A2}">
+					<ChildrenList>
+						<Action Name="" ID="{CBF9A4BC-F184-45B8-904F-4274C8890FA6}" ShortID="313699246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FemaleVoice_02" ID="{171363AD-D339-4769-9254-39F2BBDAA11E}" WorkUnitID="{85090F63-DE3B-4424-8EC3-320FE40CD088}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

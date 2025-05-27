@@ -10,25 +10,31 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="Reverb_EXT_GEN" ID="{6F261ECD-08F0-4098-B9E8-024E0326BDCC}">
-							<ObjectLists>
-								<ObjectList Name="Effects">
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{D927C977-9311-47D8-A399-536EF3B564CD}" ShortID="356117324">
-												<ReferenceList>
-													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-														<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-													</Reference>
-												</ReferenceList>
-											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</AuxBus>
-						<AuxBus Name="Reverb_GEN" ID="{7980BEC0-ED46-4A64-A6C1-6CB2608379F3}"/>
-						<AuxBus Name="Reverb_INT_GEN" ID="{43553F1A-29B9-4A16-A443-2FE418143B6C}"/>
+						<Bus Name="Reverb" ID="{C254CE1A-1120-434C-B461-996728661C27}">
+							<ChildrenList>
+								<AuxBus Name="Reverb_Int" ID="{9C475146-1425-4396-8B74-2B28D9AE3A6E}">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{4FF356BA-326C-41E7-9EF9-CAE76A28B6EC}" ShortID="945185928">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
